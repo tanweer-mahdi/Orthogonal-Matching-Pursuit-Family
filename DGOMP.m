@@ -1,5 +1,11 @@
 function y = DGOMP(ZC,YY,var,PFA)
 
+%% Getting started
+% ZC = Sensing matrix/Dictionary
+% YY = Received data (Multiple Measurement Vector, also known as MMV)
+% corrputed by AWGN noise
+% var = Noise variance, assumed known as a priori
+% PFA = Probability of False Alarm. A good starting point is PFA = 0.1
 % Initialization
 R = YY; %residual initialization
 A = []; %active set initalization
