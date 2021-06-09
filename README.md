@@ -9,3 +9,6 @@ This variation of OMP algorithm finds piecewise sparse vector. Especially handy 
 
 ## DGOMP (Detector based OMP): 
 DGOMP is the variation of OMP which doesn't require sparsity (number of non zero elements in the vector) as a prior. It performs statistical hypothesis testing on each iteration on the residual to determine algorithm stopping criterion. Details here: https://link.springer.com/article/10.1186/1687-6180-2014-178
+
+## BSBL (Block Sparse Bayesial Learning):
+Not necessarily a matching pursuit based sparse recovery algorithm, however, it is a faster approximation of a block-sparse recovery algorithm by Block Sparse Bayesian Learning. 
